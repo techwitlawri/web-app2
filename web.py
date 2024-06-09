@@ -13,7 +13,7 @@ todos = functions.get_todos()
 
 st.title("My Todo App")
 st.subheader('this is my todo app')
-st.write("This is to mprovemyself")
+st.write("list of things you have to do")
 
 
 for index, todo in enumerate(todos):
